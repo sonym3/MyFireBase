@@ -19,3 +19,15 @@ Clear button will help to clear the fields in textView.
 ###### FirebaseDatabase class
 
 The entry point for accessing a Firebase Database. You can get an instance by calling getInstance(). To access a location in the database and read or write data, use getReference().
+
+###### DatabaseReference class
+A Firebase reference represents a particular location in your Database and can be used for reading or writing data to that Database location.
+
+This class is the starting point for all Database operations. After you've initialized it with a URL, you can use it to read data, write data, and to create new DatabaseReferences.
+
+###### DatabaseReference push()
+
+It create a reference to an auto-generated child location.
+
+###### setValue(Object value)
+Set the data at this location to the given value.
