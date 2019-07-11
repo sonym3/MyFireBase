@@ -31,3 +31,8 @@ It create a reference to an auto-generated child location.
 
 ###### setValue(Object value)
 Set the data at this location to the given value.
+
+# FireBase Console
+The data entered by the useres are appeared here in the cloud-realtime database of FireBase.
+
+![pic1](https://user-images.githubusercontent.com/17185722/61087784-a06f8b80-a404-11e9-9820-d4a6c1c783c0.JPG)
